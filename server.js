@@ -4,7 +4,6 @@ const cors = require("cors");
 const dotenv = require("dotenv");
 dotenv.config();
 const app = express();
-const Book = require('./models/book');
 const bookRoutes = require('./routes/bookRouter');
 const publisherRoutes = require('./routes/publisherRouter');
 app.use(express.json());
@@ -24,4 +23,5 @@ app.use(express.static('frontend'));
 app.listen(3000, () => {
   console.log("Server is running on port 3000");
   console.log("Access the application at http://127.0.0.1:3000/frontend/index.html");
+
 });
