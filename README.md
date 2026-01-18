@@ -13,7 +13,7 @@ Features
 - Clean web interface with tab navigation
 - Automatic timestamps (createdAt, updatedAt)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Backend:** Node.js, Express.js, MongoDB, Mongoose, CORS and .env
 **Frontend:** HTML, CSS, JavaScript
